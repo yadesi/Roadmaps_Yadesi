@@ -1,4 +1,4 @@
-# SINGLE PAGE CV - AYENDEV
+# SINGLE PAGE CV - YADESI
 
 The goal of this project is to create a structured, single-page CV using only HTML. I'm focused on laying out my education, skills, and career history in a clean, semantic manner.
 
