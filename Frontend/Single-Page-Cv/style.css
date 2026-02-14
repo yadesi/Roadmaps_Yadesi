@@ -1,0 +1,335 @@
+/* Document
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: content-box;
+  color: #222222;
+  background-color: #F8F8F8;
+  user-select: none;
+}
+
+
+.container-page {
+  width: 800px;
+  max-width: 880px;
+  margin: 20px auto;
+  padding: 25px 0;
+  box-shadow: 0px 0px 5px 5px #EFE4D2;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.141);
+}
+
+
+.author,
+.profil {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.author {
+  font-size: 1.8em;
+  color: rgba(0, 0, 0, 0.732);
+  margin-bottom: 12px;
+
+}
+
+.hanging {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.profil {
+  font-size: 1.8em;
+  margin-top: 0px;
+}
+
+.skills-wrap,
+.author-infos {
+  width: 100%;
+  height: auto;
+  padding: 2px 0px;
+}
+
+.skills-wrap .item-skills,
+.list-info {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  padding-left: 0;
+}
+
+.skills-wrap .item-skills .item-skill {
+  /* background-color: #27548A; */
+  padding: 5px 15px;
+}
+
+.item-skills {
+  margin: 0 auto;
+}
+
+.author-infos {
+  border-bottom: 2px solid #EFE4D2;
+  border-top: 2px solid #EFE4D2;
+}
+
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+  height: auto;
+}
+
+#body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+
+.container_identity {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.card {
+  outline: 2px solid #EFE4D2;
+  padding: 25px 0px;
+}
+
+.identity_profil {
+  width: 70%;
+}
+
+.professional {
+  position: relative;
+}
+
+.Title {
+  text-transform: uppercase;
+}
+
+.exp {
+  text-decoration: 2px underline #EFE4D2;
+}
+
+#others-skills {
+  flex: initial;
+  padding: 0 30px;
+  border-right: 2px solid #EFE4D2;
+
+}
+
+.second-skill,
+.third-skill,
+.fourth-skill,
+.fifth-skill {
+  margin-top: 40px;
+}
+
+.list-first-skill {
+  padding-left: 15px;
+}
+
+
+.item_professional {
+  margin: 20px 0;
+}
+
+.resize {
+  margin-top: 2px;
+}
+
+.job_title {
+  margin-bottom: 10px;
+}
+
+.job_title,
+.farm,
+.graduade_title {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.graduade_title {
+  margin-bottom: 4px;
+
+}
+
+.list_tasks {
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.903);
+}
+
+.list_tasks .task {
+  line-height: 1;
+  font-size: 0.95rem;
+  text-transform: capitalize;
+  padding: 2px 0;
+}
+
+#experiences {
+  flex: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.projet {
+  text-align: justify;
+}
+
+
+.date {
+  float: right;
+  text-transform: lowercase;
+}
+
+.date_school {
+  float: left;
+  text-transform: lowercase;
+
+}
+
+.date,
+.date_school {
+  font-style: italic;
+  font-weight: 600;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+.footer {
+  font-weight: 300;
+  text-align: right;
+  padding: 0 20px;
+  font-style: italic;
+}
+
+
+@media (max-width: 700px) {
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box !important;
+  }
+
+  #body,
+  .hanging, .profil {
+    display: none;
+  }
+
+  .card{
+    outline: none;
+    padding: 0px;
+  }
+
+
+  .container_identity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+  .container-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  .header {
+    padding: 5px;
+  }
+
+
+  .author,
+  .profil {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .item-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .list-info {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+  }
+
+}
