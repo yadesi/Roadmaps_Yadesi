@@ -22,7 +22,7 @@ The website should have following pages:
 
 ### URL's project
 
-- link : https://roadmap.sh/projects/basic-html-website
+- link : https://yadesi.github.io/Roadmaps_Yadesi/Frontend/Basic_HTML_Website/
 
 # -----------------------------------------------------
 
@@ -48,4 +48,4 @@ Dans le cadre de ce projet, vous devez créer un site web simple, uniquement en 
 
 ### Projet URL
 
-- lien : https://roadmap.sh/projects/basic-html-website
+- lien : https://yadesi.github.io/Roadmaps_Yadesi/Frontend/Basic_HTML_Website/
