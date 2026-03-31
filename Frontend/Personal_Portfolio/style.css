@@ -248,7 +248,7 @@ main {
   padding: 2rem 4rem 8rem;
 }
 
-.container_card {
+.container_card, .container_project {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -257,16 +257,28 @@ main {
   gap: 20px;
 }
 
+.container_project {
+  padding: 4rem 2rem;
+}
+
 .card {
   width: 12rem;
   height: auto;
   border: 1px solid;
   border-radius: 30px;
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1.5rem;
 }
 
-.card .author {
+.card .author, .description {
   color: var(--muted);
+  text-align: justify;
+}
+
+.illustration{
+  padding: 4rem ;
+  border-radius: 10px;
+  background-color: var(--muted);
+  height: 30%;
 }
 
 footer{
