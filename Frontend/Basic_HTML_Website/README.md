@@ -1,6 +1,6 @@
-# Basic HTML Website - YADESI
+# Basic HTML Website - YADESI (EN)
 
-(EN) The goal of this project is to structure a website using HTML with different sections of a website like header, footer,
+The goal of this project is to structure a website using HTML with different sections of a website like header, footer,
 navigation, main content, sidebars etc. I don't style the website, only focus on the structure.
 
 ----------------------------------
@@ -9,8 +9,8 @@ In this project, you are required to create a simple HTML only website with mult
 The website should have following pages:
 
 - Homepage
-- Projects
-- Articles
+- Project
+- Article
 - ContacT
 
 ### Others Key requirement for this project:
@@ -24,10 +24,9 @@ The website should have following pages:
 
 - link : https://roadmap.sh/projects/basic-html-website
 
+# -----------------------------------------------------
 
-------FR------
-
-# Site web HTML basique - YADESI
+# Site web HTML basique - YADESI (FR)
 
 L'objectif de ce projet est de structurer un site web à l'aide du langage HTML avec différentes sections telles que l'en-tête, le pied de page, la navigation, le contenu principal, les barres latérales, etc. Je ne m'occupe pas du style du site web, je me concentre uniquement sur sa structure.
 
@@ -36,8 +35,8 @@ L'objectif de ce projet est de structurer un site web à l'aide du langage HTML 
 Dans le cadre de ce projet, vous devez créer un site web simple, uniquement en HTML, comportant plusieurs pages. Le site web doit comporter les pages suivantes :
 
 - page d'accueil
-- Projets
-- Articles
+- Projet
+- Article
 - Contact
 
 ### Autres Exigence clé pour ce projet:
