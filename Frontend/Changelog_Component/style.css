@@ -1,0 +1,120 @@
+:root {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 20px;
+    background-color: #F5F5F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title h3 {
+    color: #234C6A;
+    font-size: 1.5rem;
+    line-height: 4rem;
+}
+
+.title p {
+    font-size: 0.85rem;
+}
+
+#component{
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 2px solid #234C6A;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.marked_date {
+    padding: 20px 20px 20px 0;
+    text-align: end;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.85rem;
+    font-style: normal;
+    color: #44444E;
+    flex-basis: 300px;
+}
+
+.description {
+    padding: 20px 0 20px 20px;
+    position: relative;
+    border-inline-start: 2px solid #8b989a;
+    font-weight: 500;
+    font-size: 0.85rem;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    flex-basis: 500px;
+}
+
+.description::before{
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #F5F5F0;
+    border: 2px solid #8b989a;
+    z-index: 1;
+    left: -8px;
+    top: 22px;
+}
+
+.act_history{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: start;
+    height: auto;
+}
+
+.act_view{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    background-color: #234C6A;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #234c6ac1;
+}
+
+button:active {
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), 
+                -2px -2px 4px 0 rgba(0, 0, 0, 0.19);
+}
