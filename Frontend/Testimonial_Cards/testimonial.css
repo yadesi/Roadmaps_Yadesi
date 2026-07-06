@@ -6,14 +6,21 @@
 
 *,*::before,*::after {
     box-sizing: border-box;
+
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 
 #container{
-    width: 100%;
-    height: auto;
     padding: 10px;
-    margin: 0 auto;
+    margin: 5% auto;
     position: relative;
 }
 
@@ -29,7 +36,7 @@
 }
 
 .ill_card{
-    flex-basis: 300px;
+    flex-basis: 280px;
     padding: 10px;
 }
 
@@ -46,7 +53,6 @@
     padding: 15px 25px;
     text-align: justify;
     background-color: #5B7E3C;
-    /* background-color: #0c0b0b; */
     color: #f8f9fa;
     position: relative;
     font-weight: 100;
@@ -67,14 +73,11 @@
     transform: rotate(45deg);
 }
 
-
 p {
     margin: 0;
     font-weight: 200;
     font-size: 15px;
 }
-
-
 
 .author{
     margin: 19px 0px 0px 0px;
@@ -83,6 +86,7 @@ p {
     align-items: center;
     justify-content: flex-start;
 }
+
 .author div{
     padding-left: 10px;
 }
@@ -99,7 +103,6 @@ p {
     color: rgba(0, 0, 0, 0.523);
 }
 
-
 .profile{
     flex-basis: content;
     object-fit: cover;
@@ -107,9 +110,7 @@ p {
 }
 
 .profile_content{
-
     border-radius: 20px;
-
 }
 
 .profile_img{
@@ -120,7 +121,7 @@ p {
 
 .profile_content{
     padding: 15px 25px 15px 25px;
-    flex-basis: 390px;
+    flex-basis: 370px;
     background-color: #0c0b0b;
     color: #f8f9fa;
     display: flex;
@@ -149,9 +150,8 @@ p {
     color: rgba(248, 249, 250, 0.81);
 }
 
-
 .full_testimony{
-    flex-basis: 620px;
+    flex-basis: 590px;
     border-radius: 10px;
     padding: 25px 45px;
     text-align: center;
