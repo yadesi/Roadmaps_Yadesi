@@ -1,4 +1,4 @@
-# Changelog Component - YADESI (EN)
+## Changelog Component - YADESI (EN)
 
 In this project I created a simple component for a website that displays a changelog. 
 A changelog is a log or record of all notable changes made to a project or software, 
@@ -13,7 +13,7 @@ I created a simple HTML structure and used CSS to style it into a visually appea
 
 # -----------------------------------------------------
 
-# Changelog Component - YADESI (FR)
+## Changelog Component - YADESI (FR)
 
 Dans le cadre de ce projet, j'ai créé un composant simple destiné à un site web qui affiche un journal des modifications. 
 Un journal des modifications est un registre répertoriant toutes les modifications notables apportées à un projet ou à un logiciel, 
