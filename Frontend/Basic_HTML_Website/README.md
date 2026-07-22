@@ -1,4 +1,4 @@
-# Basic HTML Website - YADESI (EN)
+## Basic HTML Website - YADESI (EN)
 
 The goal of this project is to structure a website using HTML with different sections of a website like header, footer,
 navigation, main content, sidebars etc. I don't style the website, only focus on the structure.
@@ -26,7 +26,7 @@ The website should have following pages:
 
 # -----------------------------------------------------
 
-# Site web HTML basique - YADESI (FR)
+## Site web HTML basique - YADESI (FR)
 
 L'objectif de ce projet est de structurer un site web à l'aide du langage HTML avec différentes sections telles que l'en-tête, le pied de page, la navigation, le contenu principal, les barres latérales, etc. Je ne m'occupe pas du style du site web, je me concentre uniquement sur sa structure.
 

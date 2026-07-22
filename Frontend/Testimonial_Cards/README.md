@@ -7,7 +7,7 @@ The goal of this project is to learn about positioning and layout in CSS.
 
 ### URL's project
 
-- link : https://roadmap.sh/projects/testimonial-cards
+- link : https://roadmap.sh/Roadmaps_Yadesi/Frontend/Testimonial_Cards
 
 ## Testimonial Cards - YADESI (FR)
 
@@ -18,5 +18,5 @@ L'objectif de ce projet est d'apprendre les principes de positionnement et de mi
 
 ### URL's project
 
-- link : https://roadmap.sh/projects/testimonial-cards
+- link : https://roadmap.sh/Roadmaps_Yadesi/Frontend/Testimonial_Cards
 

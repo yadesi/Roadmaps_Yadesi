@@ -1,0 +1,178 @@
+*,*:before,*:after{box-sizing:border-box;}
+
+:root {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+
+}
+
+main {
+    width: 350px;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#picker_body{
+    width: inherit;
+    border: 1px #020202 solid;
+}
+
+#picker_header{
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+input,button{
+    box-shadow: none;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+
+input{
+    height: 40px;
+    padding: 11px;
+    flex: auto;
+    box-shadow: 0px 0px 1px rgba(2, 2, 2, 0.84);
+}
+
+input[placeholder]{
+    font-style: oblique;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+button{
+    padding: 6px 15px 6px 15px;
+    background-color: #E3E3E3;
+    flex: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 0px 1px rgba(2, 2, 2, 0.84);
+}
+
+.dateIcon{
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+}
+
+
+#picker_body{
+    width: auto;
+    padding: 10px;
+    border-color: rgba(38, 38, 38, 0.2);
+    box-shadow: 1px 1px 1px #F85959,
+                -1px -1px 1px #AC005D,
+                0px 0px 3px rgba(38, 38, 38, 0.55);
+}
+
+
+#picker_body p{
+    padding: 5px 10px;
+    vertical-align: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #F4F4F2;
+    background-color: #495464;
+}
+
+
+.IconArrow_left, .IconArrow_right {
+    object-fit: contain;
+    width: 16px;
+    height: 16px;
+    background-color: #F4F4F2;
+}
+
+.IconArrow_left{
+    float: left;
+}
+.IconArrow_right{
+    float: right;
+}
+
+.picker_days{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picker_days li{
+    margin: 5px 10px;
+    font-weight: 600;
+    font-size: smaller;
+    width: 40px;
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #495464;
+    color: #F4F4F2;
+}
+
+.view_date_ordered{
+    padding: 0px;
+    width: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+
+.day {
+    padding-top: 4px;
+    padding-left: 6px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    position: relative;
+
+}
+
+.day::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    background-color: rgba(38, 38, 38, 0.03);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    z-index: -1;
+    border-radius: 50%;
+}
