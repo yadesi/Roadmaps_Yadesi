@@ -26,4 +26,4 @@ L’objectif de ce projet est non seulement de vous aider à vous exercer au HTM
 et facile à utiliser pour tous les utilisateurs, y compris les personnes en situation de handicap.
 
 ### URL's project
-- link : https://roadmap.sh/projects/accessible-form-ui
+- lien : https://roadmap.sh/projects/accessible-form-ui
